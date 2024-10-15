@@ -1,0 +1,58 @@
+.App {
+    padding: 92px 48px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(250, 247, 244, 1);
+
+    .msg-box {
+        background-color: #fff;
+        border: 1px solid rgb(238 229 218 / 1);
+        border-radius: .75rem;
+        padding: 1.5rem;
+
+        .msg-input {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0.25rem 0.5rem;
+            gap: 8px;
+
+            textarea {
+                background: transparent;
+                color: #080707;
+                box-shadow: none;
+                border-radius: 18px;
+                border: 1px solid #dbdde1;
+                outline: none;
+                flex: 1;
+                line-height: 38px;
+                font-size: 14px;
+                padding: 0 12px;
+                font-family: Arial, Helvetica, sans-serif
+            }
+
+            .file,
+            .send {
+                height: 40px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+
+            .send {
+                svg {
+                    width: 32px;
+                    height: 32px;
+
+                    path {
+                        fill: #b4b7bb
+                    }
+                }
+
+            }
+        }
+    }
+}
